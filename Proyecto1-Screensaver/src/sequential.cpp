@@ -28,6 +28,14 @@ static const int BLOCK_MAX_SIZE = 45;
 static const float BLOCK_MIN_SPEED = 60.0f;
 static const float BLOCK_MAX_SPEED = 180.0f;
 
+// --- Mecánica de "depredación" ---
+// Un bloque se come a otro con el que se solapa si su lado lo supera por al
+// menos BLOCK_EAT_MARGIN px; al comer, su área aumenta en una fracción
+// BLOCK_EAT_GROWTH del área de la presa, hasta un lado máximo BLOCK_EAT_MAX_SIZE.
+static const int   BLOCK_EAT_MARGIN   = 2;
+static const float BLOCK_EAT_GROWTH   = 0.6f;
+static const int   BLOCK_EAT_MAX_SIZE = 160;
+
 // Cada cuánto tiempo (segundos) se actualiza el título de la ventana con el FPS.
 static const double FPS_UPDATE_INTERVAL = 0.5;
 
@@ -96,44 +104,48 @@ static bool parseBlockCount(int argc, char* argv[], int& outBlockCount) {
     return true;
 }
 
-// Crea e inicializa N bloques con posición, velocidad y color pseudoaleatorios.
-// Las posiciones se generan de modo que el bloque completo quede dentro del canvas.
+// Construye un bloque con tamaño, posición, velocidad y color pseudoaleatorios,
+// completamente dentro del canvas. Se usa al inicializar y también al "reciclar"
+// un bloque que fue comido, de modo que N permanece constante toda la ejecución.
+static Block makeRandomBlock() {
+    Block block;
+    block.size = static_cast<int>(randomRange(static_cast<float>(BLOCK_MIN_SIZE),
+                                                static_cast<float>(BLOCK_MAX_SIZE)));
+
+    block.x = randomRange(0.0f, static_cast<float>(WINDOW_WIDTH - block.size));
+    block.y = randomRange(0.0f, static_cast<float>(WINDOW_HEIGHT - block.size));
+
+    // Dirección de movimiento generada con trigonometría a partir de un
+    // ángulo aleatorio; el rebote luego solo invierte el signo apropiado.
+    float speed = randomRange(BLOCK_MIN_SPEED, BLOCK_MAX_SPEED);
+    float angle = randomRange(0.0f, 2.0f * PI);    // M_PI no es estándar en C++; se usa el PI definido arriba.
+    block.vx = speed * std::cos(angle);
+    block.vy = speed * std::sin(angle);
+
+    const PaletteColor& base = BLOCK_PALETTE[rand() % PALETTE_SIZE];
+    // Pequeña variación de color para que no todos los bloques del mismo
+    // tipo se vean idénticos.
+    auto jitterChannel = [](int channel) {
+        int jitter = (rand() % 41) - 20; // [-20, 20]
+        int result = channel + jitter;
+        if (result < 0) result = 0;
+        if (result > 255) result = 255;
+        return static_cast<Uint8>(result);
+    };
+    block.r = jitterChannel(base.r);
+    block.g = jitterChannel(base.g);
+    block.b = jitterChannel(base.b);
+
+    return block;
+}
+
+// Crea e inicializa N bloques pseudoaleatorios.
 static std::vector<Block> initializeBlocks(int blockCount) {
     std::vector<Block> blocks;
     blocks.reserve(blockCount);
-
     for (int i = 0; i < blockCount; ++i) {
-        Block block;
-        block.size = static_cast<int>(randomRange(static_cast<float>(BLOCK_MIN_SIZE),
-                                                    static_cast<float>(BLOCK_MAX_SIZE)));
-
-        block.x = randomRange(0.0f, static_cast<float>(WINDOW_WIDTH - block.size));
-        block.y = randomRange(0.0f, static_cast<float>(WINDOW_HEIGHT - block.size));
-
-        // Dirección de movimiento generada con trigonometría a partir de un
-        // ángulo aleatorio; el rebote luego solo invierte el signo apropiado.
-        float speed = randomRange(BLOCK_MIN_SPEED, BLOCK_MAX_SPEED);
-        float angle = randomRange(0.0f, 2.0f * PI);    // <- se cambió el M_PI por un static const float PI (al inicio del archivo), según entiendo es pq M_PI no forma parte del estándar C++, aunque algunos ocmpiladores lo ponen como extensión, en este caso no viene
-        block.vx = speed * std::cos(angle);
-        block.vy = speed * std::sin(angle);
-
-        const PaletteColor& base = BLOCK_PALETTE[rand() % PALETTE_SIZE];
-        // Pequeña variación de color para que no todos los bloques del mismo
-        // tipo se vean idénticos.
-        auto jitterChannel = [](int channel) {
-            int jitter = (rand() % 41) - 20; // [-20, 20]
-            int result = channel + jitter;
-            if (result < 0) result = 0;
-            if (result > 255) result = 255;
-            return static_cast<Uint8>(result);
-        };
-        block.r = jitterChannel(base.r);
-        block.g = jitterChannel(base.g);
-        block.b = jitterChannel(base.b);
-
-        blocks.push_back(block);
+        blocks.push_back(makeRandomBlock());
     }
-
     return blocks;
 }
 
@@ -164,12 +176,82 @@ static void updateBlockPhysics(Block& block, float deltaTimeSeconds) {
     }
 }
 
-// Recorre todos los bloques y actualiza su física. Este es el punto exacto
-// que la version paralela reemplazara por un bucle con OpenMP.
+// ¿Se solapan las bolas a y b? Distancia entre centros < suma de radios.
+// 'size' es el diámetro; x/y siguen siendo la esquina de la caja contenedora,
+// así que el centro es (x + size/2, y + size/2).
+static bool blocksOverlap(const Block& a, const Block& b) {
+    float ar = a.size * 0.5f;
+    float br = b.size * 0.5f;
+    float dx = (a.x + ar) - (b.x + br);
+    float dy = (a.y + ar) - (b.y + br);
+    float radiusSum = ar + br;
+    return dx * dx + dy * dy < radiusSum * radiusSum;
+}
+
+// Para cada bloque j calcula qué bloque se lo come: el de mayor lado entre
+// los que lo superan por al menos BLOCK_EAT_MARGIN px y se solapan con él
+// (-1 si ninguno). Solo lee el arreglo y escribe predatorOf[j], índice
+// exclusivo de la iteración, por lo que el bucle sobre j no tiene
+// dependencias entre iteraciones: es el punto que la versión paralela
+// reparte entre hilos con OpenMP. Coste O(N^2).
+static void computePredators(const std::vector<Block>& blocks, std::vector<int>& predatorOf) {
+    const int n = static_cast<int>(blocks.size());
+    for (int j = 0; j < n; ++j) {
+        int predator = -1;
+        int predatorSize = blocks[j].size + BLOCK_EAT_MARGIN - 1;
+        for (int i = 0; i < n; ++i) {
+            if (i == j) continue;
+            if (blocks[i].size > predatorSize && blocksOverlap(blocks[i], blocks[j])) {
+                predator = i;
+                predatorSize = blocks[i].size;
+            }
+        }
+        predatorOf[j] = predator;
+    }
+}
+
+// Aplica el resultado de computePredators: cada depredador crece según el área
+// de sus presas y cada presa se recicla en un bloque nuevo pequeño (N constante).
+// Es O(N) y se mantiene secuencial (también en la versión paralela): el crecer
+// acumula varias presas sobre el mismo depredador y el reciclado debe leer el
+// tamaño de la presa antes de sobrescribirla.
+static void resolveEating(std::vector<Block>& blocks, const std::vector<int>& predatorOf) {
+    const int n = static_cast<int>(blocks.size());
+
+    for (int j = 0; j < n; ++j) {
+        const int i = predatorOf[j];
+        if (i < 0) continue;
+
+        float preyArea = static_cast<float>(blocks[j].size) * blocks[j].size;
+        float predArea = static_cast<float>(blocks[i].size) * blocks[i].size;
+        int newSize = static_cast<int>(std::sqrt(predArea + BLOCK_EAT_GROWTH * preyArea));
+        if (newSize > BLOCK_EAT_MAX_SIZE) newSize = BLOCK_EAT_MAX_SIZE;
+        blocks[i].size = newSize;
+
+        // Tras crecer, reencuadra al depredador dentro del canvas.
+        if (blocks[i].x + blocks[i].size > WINDOW_WIDTH)
+            blocks[i].x = static_cast<float>(WINDOW_WIDTH - blocks[i].size);
+        if (blocks[i].y + blocks[i].size > WINDOW_HEIGHT)
+            blocks[i].y = static_cast<float>(WINDOW_HEIGHT - blocks[i].size);
+        if (blocks[i].x < 0.0f) blocks[i].x = 0.0f;
+        if (blocks[i].y < 0.0f) blocks[i].y = 0.0f;
+    }
+
+    for (int j = 0; j < n; ++j) {
+        if (predatorOf[j] >= 0) blocks[j] = makeRandomBlock();
+    }
+}
+
+// Recorre todos los bloques: primero la física (candidata a paralelizar con
+// OpenMP), luego la fase de "comer" (computePredators + resolveEating).
 static void updateAllBlocks(std::vector<Block>& blocks, float deltaTimeSeconds) {
     for (std::size_t i = 0; i < blocks.size(); ++i) {
         updateBlockPhysics(blocks[i], deltaTimeSeconds);
     }
+
+    std::vector<int> predatorOf(blocks.size(), -1);
+    computePredators(blocks, predatorOf);
+    resolveEating(blocks, predatorOf);
 }
 
 // Procesa eventos de SDL (cierre de ventana, tecla ESC). Retorna false si el
@@ -187,7 +269,17 @@ static bool handleEvents() {
     return true;
 }
 
-// Dibuja el fondo oscuro y todos los bloques en su posición actual.
+// Dibuja un círculo relleno por barrido de líneas horizontales: para cada
+// fila 'dy' dentro del radio, el ancho es sqrt(r^2 - dy^2). SDL2 no trae una
+// primitiva de círculo relleno, así que se hace a mano.
+static void renderFilledCircle(SDL_Renderer* renderer, int centerX, int centerY, int radius) {
+    for (int dy = -radius; dy <= radius; ++dy) {
+        int dx = static_cast<int>(std::sqrt(static_cast<double>(radius) * radius - dy * dy));
+        SDL_RenderDrawLine(renderer, centerX - dx, centerY + dy, centerX + dx, centerY + dy);
+    }
+}
+
+// Dibuja el fondo oscuro y todas las bolas en su posición actual.
 static void renderFrame(SDL_Renderer* renderer, const std::vector<Block>& blocks) {
     // Fondo oscuro (casi negro, con un leve tinte azulado tipo "cueva").
     SDL_SetRenderDrawColor(renderer, 15, 15, 25, 255);
@@ -195,14 +287,12 @@ static void renderFrame(SDL_Renderer* renderer, const std::vector<Block>& blocks
 
     for (std::size_t i = 0; i < blocks.size(); ++i) {
         const Block& block = blocks[i];
-        SDL_Rect rect;
-        rect.x = static_cast<int>(block.x);
-        rect.y = static_cast<int>(block.y);
-        rect.w = block.size;
-        rect.h = block.size;
+        int radius = block.size / 2;
+        int centerX = static_cast<int>(block.x) + radius;
+        int centerY = static_cast<int>(block.y) + radius;
 
         SDL_SetRenderDrawColor(renderer, block.r, block.g, block.b, 255);
-        SDL_RenderFillRect(renderer, &rect);
+        renderFilledCircle(renderer, centerX, centerY, radius);
     }
 
     SDL_RenderPresent(renderer);
