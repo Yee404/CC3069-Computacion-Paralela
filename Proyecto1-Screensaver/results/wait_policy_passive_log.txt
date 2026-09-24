@@ -1,0 +1,68 @@
+== N = 5000
+    [Secuencial] N=5000 hilos=1 frames=120 tiempo=1.2729 s FPS=94.28 update=10.197 ms/frame render=0.402 ms/frame checksum=2227288.0649
+    [Secuencial] N=5000 hilos=1 frames=120 tiempo=1.4052 s FPS=85.39 update=11.237 ms/frame render=0.459 ms/frame checksum=2227288.0649
+    [Secuencial] N=5000 hilos=1 frames=120 tiempo=1.3409 s FPS=89.50 update=10.750 ms/frame render=0.414 ms/frame checksum=2227288.0649
+    [Secuencial] N=5000 hilos=1 frames=120 tiempo=1.2824 s FPS=93.58 update=10.272 ms/frame render=0.404 ms/frame checksum=2227288.0649
+    [Secuencial] N=5000 hilos=1 frames=120 tiempo=1.2754 s FPS=94.09 update=10.213 ms/frame render=0.406 ms/frame checksum=2227288.0649
+    [Secuencial] N=5000 hilos=1 frames=120 tiempo=1.4017 s FPS=85.61 update=11.208 ms/frame render=0.459 ms/frame checksum=2227288.0649
+    [Secuencial] N=5000 hilos=1 frames=120 tiempo=1.4298 s FPS=83.93 update=11.453 ms/frame render=0.453 ms/frame checksum=2227288.0649
+    [Secuencial] N=5000 hilos=1 frames=120 tiempo=1.2775 s FPS=93.94 update=10.242 ms/frame render=0.395 ms/frame checksum=2227288.0649
+    [Secuencial] N=5000 hilos=1 frames=120 tiempo=1.3429 s FPS=89.36 update=10.745 ms/frame render=0.437 ms/frame checksum=2227288.0649
+    [Secuencial] N=5000 hilos=1 frames=120 tiempo=1.3744 s FPS=87.31 update=11.006 ms/frame render=0.437 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3570 s FPS=336.17 update=2.527 ms/frame render=0.435 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3359 s FPS=357.23 update=2.310 ms/frame render=0.480 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3694 s FPS=324.83 update=2.625 ms/frame render=0.445 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3789 s FPS=316.68 update=2.711 ms/frame render=0.438 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3426 s FPS=350.27 update=2.365 ms/frame render=0.480 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3786 s FPS=317.00 update=2.689 ms/frame render=0.457 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3758 s FPS=319.29 update=2.654 ms/frame render=0.468 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3776 s FPS=317.77 update=2.706 ms/frame render=0.433 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3864 s FPS=310.53 update=2.764 ms/frame render=0.448 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3972 s FPS=302.13 update=2.835 ms/frame render=0.461 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.2966 s FPS=404.57 update=1.971 ms/frame render=0.491 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.2903 s FPS=413.33 update=1.927 ms/frame render=0.483 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.2917 s FPS=411.37 update=1.927 ms/frame render=0.494 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.3147 s FPS=381.31 update=2.074 ms/frame render=0.539 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.2918 s FPS=411.22 update=1.910 ms/frame render=0.512 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.2927 s FPS=410.01 update=1.910 ms/frame render=0.519 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.2931 s FPS=409.43 update=1.923 ms/frame render=0.510 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.2849 s FPS=421.20 update=1.851 ms/frame render=0.513 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.2852 s FPS=420.76 update=1.847 ms/frame render=0.519 ms/frame checksum=2227288.0649
+    [Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.2947 s FPS=407.14 update=1.950 ms/frame render=0.496 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2896 s FPS=414.41 update=2.011 ms/frame render=0.393 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2844 s FPS=421.89 update=1.985 ms/frame render=0.375 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.3067 s FPS=391.32 update=2.161 ms/frame render=0.386 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2791 s FPS=429.93 update=1.936 ms/frame render=0.379 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2878 s FPS=416.89 update=2.004 ms/frame render=0.386 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2887 s FPS=415.65 update=2.015 ms/frame render=0.382 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.3194 s FPS=375.69 update=2.255 ms/frame render=0.398 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2813 s FPS=426.58 update=1.937 ms/frame render=0.398 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.3130 s FPS=383.37 update=2.202 ms/frame render=0.397 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2839 s FPS=422.71 update=1.980 ms/frame render=0.377 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2444 s FPS=491.01 update=1.610 ms/frame render=0.416 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2415 s FPS=496.81 update=1.597 ms/frame render=0.404 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2455 s FPS=488.77 update=1.625 ms/frame render=0.411 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2427 s FPS=494.45 update=1.592 ms/frame render=0.421 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2610 s FPS=459.84 update=1.734 ms/frame render=0.430 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2525 s FPS=475.24 update=1.668 ms/frame render=0.426 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2444 s FPS=491.00 update=1.610 ms/frame render=0.416 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2443 s FPS=491.17 update=1.589 ms/frame render=0.437 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2495 s FPS=481.00 update=1.611 ms/frame render=0.457 ms/frame checksum=2227288.0649
+    [Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2520 s FPS=476.12 update=1.671 ms/frame render=0.419 ms/frame checksum=2227288.0649
+
+Resultados en results/wait_policy_passive
+Checksums identicos entre versiones: si
+Equipo: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz - 16 hilos logicos - Linux 6.8.0-45-generic
+
+Cada fila = promedio de 10 corridas de 120 frames (dt fijo 1/60 s, sin vsync, semilla 2026, OMP_WAIT_POLICY=passive).
+
+Checksums identicos entre versiones: **si**
+
+| Version | N | Hilos | Tiempo prom. (s) | Desv. (s) | FPS prom. | Update (ms/frame) | Render (ms/frame) | Speedup | Eficiencia |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Secuencial | 5000 | 1 | 1.3403 | 0.0608 | 89.7 | 10.732 | 0.427 | 1.00 | 100.0% |
+| Paralela v1 | 5000 | 8 | 0.3699 | 0.0193 | 325.2 | 2.619 | 0.455 | 3.62 | 45.3% |
+| Paralela v1 | 5000 | 16 | 0.2936 | 0.0083 | 409.0 | 1.929 | 0.508 | 4.57 | 28.5% |
+| Paralela v2 | 5000 | 8 | 0.2934 | 0.0142 | 409.8 | 2.049 | 0.387 | 4.57 | 57.1% |
+| Paralela v2 | 5000 | 16 | 0.2478 | 0.0060 | 484.5 | 1.631 | 0.424 | 5.41 | 33.8% |
+

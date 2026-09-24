@@ -1,2 +1,4 @@
 *.exe
 bin/
+__pycache__/
+docs/Informe.html

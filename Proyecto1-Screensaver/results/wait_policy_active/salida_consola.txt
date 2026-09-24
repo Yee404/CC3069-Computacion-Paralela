@@ -1,0 +1,240 @@
+$ screensaver_sequential 5000 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=120 tiempo=1.4084 s FPS=85.20 update=11.290 ms/frame render=0.438 ms/frame checksum=2227288.0649
+
+$ screensaver_sequential 5000 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=120 tiempo=1.4646 s FPS=81.94 update=11.719 ms/frame render=0.474 ms/frame checksum=2227288.0649
+
+$ screensaver_sequential 5000 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=120 tiempo=1.3925 s FPS=86.17 update=11.163 ms/frame render=0.434 ms/frame checksum=2227288.0649
+
+$ screensaver_sequential 5000 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=120 tiempo=1.4603 s FPS=82.18 update=11.692 ms/frame render=0.467 ms/frame checksum=2227288.0649
+
+$ screensaver_sequential 5000 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=120 tiempo=1.4681 s FPS=81.74 update=11.753 ms/frame render=0.471 ms/frame checksum=2227288.0649
+
+$ screensaver_sequential 5000 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=120 tiempo=1.4712 s FPS=81.57 update=11.778 ms/frame render=0.472 ms/frame checksum=2227288.0649
+
+$ screensaver_sequential 5000 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=120 tiempo=1.4850 s FPS=80.81 update=11.876 ms/frame render=0.486 ms/frame checksum=2227288.0649
+
+$ screensaver_sequential 5000 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=120 tiempo=1.2782 s FPS=93.88 update=10.244 ms/frame render=0.400 ms/frame checksum=2227288.0649
+
+$ screensaver_sequential 5000 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=120 tiempo=1.2907 s FPS=92.97 update=10.335 ms/frame render=0.411 ms/frame checksum=2227288.0649
+
+$ screensaver_sequential 5000 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=120 tiempo=1.3770 s FPS=87.15 update=11.012 ms/frame render=0.454 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3082 s FPS=389.41 update=2.059 ms/frame render=0.499 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3639 s FPS=329.75 update=2.489 ms/frame render=0.533 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3542 s FPS=338.78 update=2.400 ms/frame render=0.541 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3608 s FPS=332.60 update=2.434 ms/frame render=0.562 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3544 s FPS=338.56 update=2.400 ms/frame render=0.543 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3299 s FPS=363.77 update=2.234 ms/frame render=0.504 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3086 s FPS=388.89 update=2.029 ms/frame render=0.532 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3782 s FPS=317.32 update=2.581 ms/frame render=0.561 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3893 s FPS=308.26 update=2.751 ms/frame render=0.483 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v1] N=5000 hilos=8 frames=120 tiempo=0.3536 s FPS=339.33 update=2.388 ms/frame render=0.549 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.4158 s FPS=288.61 update=2.764 ms/frame render=0.691 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.4155 s FPS=288.79 update=2.821 ms/frame render=0.631 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.4368 s FPS=274.72 update=2.997 ms/frame render=0.633 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.3523 s FPS=340.65 update=2.329 ms/frame render=0.595 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.4157 s FPS=288.69 update=2.709 ms/frame render=0.742 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.4254 s FPS=282.09 update=2.825 ms/frame render=0.710 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.3924 s FPS=305.79 update=2.504 ms/frame render=0.750 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.4033 s FPS=297.56 update=2.757 ms/frame render=0.594 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.4051 s FPS=296.20 update=2.486 ms/frame render=0.844 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v1: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=5000 hilos=16 frames=120 tiempo=0.3569 s FPS=336.21 update=2.350 ms/frame render=0.612 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2992 s FPS=401.07 update=2.078 ms/frame render=0.403 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2814 s FPS=426.46 update=1.912 ms/frame render=0.423 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2773 s FPS=432.73 update=1.923 ms/frame render=0.379 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2831 s FPS=423.92 update=1.981 ms/frame render=0.368 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2886 s FPS=415.77 update=1.998 ms/frame render=0.397 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2786 s FPS=430.65 update=1.939 ms/frame render=0.374 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2694 s FPS=445.42 update=1.839 ms/frame render=0.395 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2734 s FPS=438.88 update=1.893 ms/frame render=0.375 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2774 s FPS=432.57 update=1.920 ms/frame render=0.380 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 8 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 8
+[Paralela v2] N=5000 hilos=8 frames=120 tiempo=0.2936 s FPS=408.67 update=2.052 ms/frame render=0.384 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.3446 s FPS=348.27 update=2.158 ms/frame render=0.695 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.3346 s FPS=358.60 update=2.246 ms/frame render=0.532 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.3334 s FPS=359.98 update=2.268 ms/frame render=0.498 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.3406 s FPS=352.31 update=2.204 ms/frame render=0.612 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.4393 s FPS=273.19 update=2.833 ms/frame render=0.813 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.3275 s FPS=366.47 update=2.143 ms/frame render=0.575 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.3598 s FPS=333.50 update=2.319 ms/frame render=0.663 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.3179 s FPS=377.45 update=2.110 ms/frame render=0.525 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.3400 s FPS=352.93 update=2.246 ms/frame render=0.577 ms/frame checksum=2227288.0649
+
+$ screensaver_parallel_v2 5000 16 --seed 2026 --frames 120 --csv results/wait_policy_active/mediciones.csv
+Galaxia Paralela v2: N=5000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=5000 hilos=16 frames=120 tiempo=0.2957 s FPS=405.81 update=1.973 ms/frame render=0.480 ms/frame checksum=2227288.0649
+

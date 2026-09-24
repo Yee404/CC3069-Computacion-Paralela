@@ -1,0 +1,920 @@
+$ screensaver_sequential 1000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=1000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=1000 hilos=1 frames=180 tiempo=0.1500 s FPS=1199.72 update=0.544 ms/frame render=0.282 ms/frame checksum=1004099.7795
+
+$ screensaver_sequential 1000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=1000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=1000 hilos=1 frames=180 tiempo=0.1610 s FPS=1118.33 update=0.557 ms/frame render=0.327 ms/frame checksum=1004099.7795
+
+$ screensaver_sequential 1000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=1000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=1000 hilos=1 frames=180 tiempo=0.1520 s FPS=1183.91 update=0.556 ms/frame render=0.281 ms/frame checksum=1004099.7795
+
+$ screensaver_sequential 1000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=1000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=1000 hilos=1 frames=180 tiempo=0.1507 s FPS=1194.62 update=0.551 ms/frame render=0.271 ms/frame checksum=1004099.7795
+
+$ screensaver_sequential 1000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=1000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=1000 hilos=1 frames=180 tiempo=0.1641 s FPS=1096.77 update=0.575 ms/frame render=0.328 ms/frame checksum=1004099.7795
+
+$ screensaver_sequential 2000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=2000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=2000 hilos=1 frames=180 tiempo=0.4111 s FPS=437.88 update=1.979 ms/frame render=0.297 ms/frame checksum=1489827.0527
+
+$ screensaver_sequential 2000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=2000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=2000 hilos=1 frames=180 tiempo=0.4192 s FPS=429.38 update=2.017 ms/frame render=0.305 ms/frame checksum=1489827.0527
+
+$ screensaver_sequential 2000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=2000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=2000 hilos=1 frames=180 tiempo=0.4126 s FPS=436.23 update=1.985 ms/frame render=0.300 ms/frame checksum=1489827.0527
+
+$ screensaver_sequential 2000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=2000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=2000 hilos=1 frames=180 tiempo=0.4160 s FPS=432.74 update=2.005 ms/frame render=0.298 ms/frame checksum=1489827.0527
+
+$ screensaver_sequential 2000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=2000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=2000 hilos=1 frames=180 tiempo=0.4204 s FPS=428.15 update=2.021 ms/frame render=0.305 ms/frame checksum=1489827.0527
+
+$ screensaver_sequential 4000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=4000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=4000 hilos=1 frames=180 tiempo=1.3309 s FPS=135.25 update=7.004 ms/frame render=0.382 ms/frame checksum=2845697.5024
+
+$ screensaver_sequential 4000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=4000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=4000 hilos=1 frames=180 tiempo=1.3309 s FPS=135.24 update=7.016 ms/frame render=0.370 ms/frame checksum=2845697.5024
+
+$ screensaver_sequential 4000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=4000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=4000 hilos=1 frames=180 tiempo=1.3559 s FPS=132.75 update=7.146 ms/frame render=0.378 ms/frame checksum=2845697.5024
+
+$ screensaver_sequential 4000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=4000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=4000 hilos=1 frames=180 tiempo=1.3346 s FPS=134.87 update=7.036 ms/frame render=0.371 ms/frame checksum=2845697.5024
+
+$ screensaver_sequential 4000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=4000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=4000 hilos=1 frames=180 tiempo=1.4113 s FPS=127.54 update=7.418 ms/frame render=0.415 ms/frame checksum=2845697.5024
+
+$ screensaver_sequential 8000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=8000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=8000 hilos=1 frames=180 tiempo=8.5599 s FPS=21.03 update=46.959 ms/frame render=0.584 ms/frame checksum=3641141.1607
+
+$ screensaver_sequential 8000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=8000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=8000 hilos=1 frames=180 tiempo=8.2619 s FPS=21.79 update=45.339 ms/frame render=0.548 ms/frame checksum=3641141.1607
+
+$ screensaver_sequential 8000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=8000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=8000 hilos=1 frames=180 tiempo=8.3562 s FPS=21.54 update=45.835 ms/frame render=0.575 ms/frame checksum=3641141.1607
+
+$ screensaver_sequential 8000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=8000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=8000 hilos=1 frames=180 tiempo=8.2702 s FPS=21.76 update=45.356 ms/frame render=0.573 ms/frame checksum=3641141.1607
+
+$ screensaver_sequential 8000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=8000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=8000 hilos=1 frames=180 tiempo=8.2742 s FPS=21.75 update=45.356 ms/frame render=0.598 ms/frame checksum=3641141.1607
+
+$ screensaver_sequential 6000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=6000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=6000 hilos=1 frames=180 tiempo=4.1508 s FPS=43.37 update=22.573 ms/frame render=0.476 ms/frame checksum=4031471.8704
+
+$ screensaver_sequential 6000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=6000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=6000 hilos=1 frames=180 tiempo=4.0983 s FPS=43.92 update=22.274 ms/frame render=0.483 ms/frame checksum=4031471.8704
+
+$ screensaver_sequential 6000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=6000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=6000 hilos=1 frames=180 tiempo=4.2268 s FPS=42.59 update=22.975 ms/frame render=0.497 ms/frame checksum=4031471.8704
+
+$ screensaver_sequential 6000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=6000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=6000 hilos=1 frames=180 tiempo=4.1393 s FPS=43.49 update=22.503 ms/frame render=0.482 ms/frame checksum=4031471.8704
+
+$ screensaver_sequential 6000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=6000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=6000 hilos=1 frames=180 tiempo=4.0933 s FPS=43.97 update=22.257 ms/frame render=0.474 ms/frame checksum=4031471.8704
+
+$ screensaver_sequential 5000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=180 tiempo=2.3532 s FPS=76.49 update=12.653 ms/frame render=0.412 ms/frame checksum=3483723.6215
+
+$ screensaver_sequential 5000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=180 tiempo=2.4687 s FPS=72.91 update=13.267 ms/frame render=0.437 ms/frame checksum=3483723.6215
+
+$ screensaver_sequential 5000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=180 tiempo=2.5172 s FPS=71.51 update=13.564 ms/frame render=0.414 ms/frame checksum=3483723.6215
+
+$ screensaver_sequential 5000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=180 tiempo=2.3804 s FPS=75.62 update=12.794 ms/frame render=0.424 ms/frame checksum=3483723.6215
+
+$ screensaver_sequential 5000 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5000 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5000 hilos=1 frames=180 tiempo=2.3988 s FPS=75.04 update=12.900 ms/frame render=0.419 ms/frame checksum=3483723.6215
+
+$ screensaver_sequential 5500 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5500 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5500 hilos=1 frames=180 tiempo=3.1930 s FPS=56.37 update=17.274 ms/frame render=0.455 ms/frame checksum=3723330.1401
+
+$ screensaver_sequential 5500 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5500 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5500 hilos=1 frames=180 tiempo=3.2351 s FPS=55.64 update=17.491 ms/frame render=0.472 ms/frame checksum=3723330.1401
+
+$ screensaver_sequential 5500 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5500 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5500 hilos=1 frames=180 tiempo=3.3073 s FPS=54.43 update=17.878 ms/frame render=0.486 ms/frame checksum=3723330.1401
+
+$ screensaver_sequential 5500 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5500 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5500 hilos=1 frames=180 tiempo=3.1969 s FPS=56.30 update=17.300 ms/frame render=0.452 ms/frame checksum=3723330.1401
+
+$ screensaver_sequential 5500 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5500 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5500 hilos=1 frames=180 tiempo=3.2155 s FPS=55.98 update=17.409 ms/frame render=0.446 ms/frame checksum=3723330.1401
+
+$ screensaver_sequential 5250 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5250 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5250 hilos=1 frames=180 tiempo=2.8537 s FPS=63.08 update=15.395 ms/frame render=0.452 ms/frame checksum=3708270.8657
+
+$ screensaver_sequential 5250 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5250 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5250 hilos=1 frames=180 tiempo=2.7503 s FPS=65.45 update=14.839 ms/frame render=0.428 ms/frame checksum=3708270.8657
+
+$ screensaver_sequential 5250 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5250 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5250 hilos=1 frames=180 tiempo=2.7648 s FPS=65.10 update=14.905 ms/frame render=0.439 ms/frame checksum=3708270.8657
+
+$ screensaver_sequential 5250 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5250 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5250 hilos=1 frames=180 tiempo=2.7647 s FPS=65.11 update=14.904 ms/frame render=0.447 ms/frame checksum=3708270.8657
+
+$ screensaver_sequential 5250 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5250 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5250 hilos=1 frames=180 tiempo=2.7223 s FPS=66.12 update=14.662 ms/frame render=0.451 ms/frame checksum=3708270.8657
+
+$ screensaver_sequential 5375 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5375 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5375 hilos=1 frames=180 tiempo=2.9802 s FPS=60.40 update=16.093 ms/frame render=0.454 ms/frame checksum=3705797.7080
+
+$ screensaver_sequential 5375 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5375 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5375 hilos=1 frames=180 tiempo=2.9957 s FPS=60.09 update=16.198 ms/frame render=0.437 ms/frame checksum=3705797.7080
+
+$ screensaver_sequential 5375 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5375 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5375 hilos=1 frames=180 tiempo=2.9692 s FPS=60.62 update=16.044 ms/frame render=0.441 ms/frame checksum=3705797.7080
+
+$ screensaver_sequential 5375 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5375 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5375 hilos=1 frames=180 tiempo=2.9987 s FPS=60.03 update=16.187 ms/frame render=0.460 ms/frame checksum=3705797.7080
+
+$ screensaver_sequential 5375 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5375 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5375 hilos=1 frames=180 tiempo=3.1586 s FPS=56.99 update=17.078 ms/frame render=0.457 ms/frame checksum=3705797.7080
+
+$ screensaver_sequential 5312 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5312 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5312 hilos=1 frames=180 tiempo=3.0270 s FPS=59.47 update=16.340 ms/frame render=0.463 ms/frame checksum=3722746.4065
+
+$ screensaver_sequential 5312 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5312 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5312 hilos=1 frames=180 tiempo=2.8960 s FPS=62.15 update=15.626 ms/frame render=0.452 ms/frame checksum=3722746.4065
+
+$ screensaver_sequential 5312 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5312 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5312 hilos=1 frames=180 tiempo=2.8264 s FPS=63.68 update=15.281 ms/frame render=0.415 ms/frame checksum=3722746.4065
+
+$ screensaver_sequential 5312 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5312 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5312 hilos=1 frames=180 tiempo=3.0267 s FPS=59.47 update=16.361 ms/frame render=0.446 ms/frame checksum=3722746.4065
+
+$ screensaver_sequential 5312 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5312 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5312 hilos=1 frames=180 tiempo=2.9453 s FPS=61.11 update=15.917 ms/frame render=0.439 ms/frame checksum=3722746.4065
+
+$ screensaver_sequential 5343 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5343 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5343 hilos=1 frames=180 tiempo=2.8978 s FPS=62.12 update=15.663 ms/frame render=0.428 ms/frame checksum=3763713.1356
+
+$ screensaver_sequential 5343 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5343 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5343 hilos=1 frames=180 tiempo=2.9359 s FPS=61.31 update=15.879 ms/frame render=0.423 ms/frame checksum=3763713.1356
+
+$ screensaver_sequential 5343 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5343 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5343 hilos=1 frames=180 tiempo=2.9442 s FPS=61.14 update=15.933 ms/frame render=0.417 ms/frame checksum=3763713.1356
+
+$ screensaver_sequential 5343 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5343 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5343 hilos=1 frames=180 tiempo=3.1293 s FPS=57.52 update=16.906 ms/frame render=0.466 ms/frame checksum=3763713.1356
+
+$ screensaver_sequential 5343 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Secuencial: N=5343 (1 hilo), canvas 800x600, semilla=2026, modo benchmark
+[Secuencial] N=5343 hilos=1 frames=180 tiempo=2.8822 s FPS=62.45 update=15.595 ms/frame render=0.409 ms/frame checksum=3763713.1356
+
+$ screensaver_parallel 1000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=1000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=1000 hilos=16 frames=180 tiempo=0.1041 s FPS=1729.16 update=0.204 ms/frame render=0.362 ms/frame checksum=1004099.7795
+
+$ screensaver_parallel 1000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=1000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=1000 hilos=16 frames=180 tiempo=0.1213 s FPS=1483.59 update=0.254 ms/frame render=0.405 ms/frame checksum=1004099.7795
+
+$ screensaver_parallel 1000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=1000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=1000 hilos=16 frames=180 tiempo=0.1274 s FPS=1412.84 update=0.295 ms/frame render=0.404 ms/frame checksum=1004099.7795
+
+$ screensaver_parallel 1000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=1000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=1000 hilos=16 frames=180 tiempo=0.1056 s FPS=1704.69 update=0.208 ms/frame render=0.371 ms/frame checksum=1004099.7795
+
+$ screensaver_parallel 1000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=1000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=1000 hilos=16 frames=180 tiempo=0.1058 s FPS=1701.79 update=0.206 ms/frame render=0.374 ms/frame checksum=1004099.7795
+
+$ screensaver_parallel 2000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=2000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=2000 hilos=16 frames=180 tiempo=0.1508 s FPS=1193.38 update=0.481 ms/frame render=0.349 ms/frame checksum=1489827.0527
+
+$ screensaver_parallel 2000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=2000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=2000 hilos=16 frames=180 tiempo=0.1570 s FPS=1146.54 update=0.513 ms/frame render=0.351 ms/frame checksum=1489827.0527
+
+$ screensaver_parallel 2000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=2000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=2000 hilos=16 frames=180 tiempo=0.1620 s FPS=1111.01 update=0.516 ms/frame render=0.377 ms/frame checksum=1489827.0527
+
+$ screensaver_parallel 2000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=2000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=2000 hilos=16 frames=180 tiempo=0.1592 s FPS=1130.33 update=0.525 ms/frame render=0.353 ms/frame checksum=1489827.0527
+
+$ screensaver_parallel 2000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=2000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=2000 hilos=16 frames=180 tiempo=0.1552 s FPS=1159.58 update=0.491 ms/frame render=0.365 ms/frame checksum=1489827.0527
+
+$ screensaver_parallel 4000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=4000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=4000 hilos=16 frames=180 tiempo=0.3124 s FPS=576.18 update=1.317 ms/frame render=0.411 ms/frame checksum=2845697.5024
+
+$ screensaver_parallel 4000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=4000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=4000 hilos=16 frames=180 tiempo=0.3204 s FPS=561.85 update=1.337 ms/frame render=0.435 ms/frame checksum=2845697.5024
+
+$ screensaver_parallel 4000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=4000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=4000 hilos=16 frames=180 tiempo=0.3225 s FPS=558.07 update=1.310 ms/frame render=0.474 ms/frame checksum=2845697.5024
+
+$ screensaver_parallel 4000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=4000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=4000 hilos=16 frames=180 tiempo=0.3137 s FPS=573.85 update=1.315 ms/frame render=0.419 ms/frame checksum=2845697.5024
+
+$ screensaver_parallel 4000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=4000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=4000 hilos=16 frames=180 tiempo=0.3372 s FPS=533.78 update=1.427 ms/frame render=0.435 ms/frame checksum=2845697.5024
+
+$ screensaver_parallel 8000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=8000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=8000 hilos=16 frames=180 tiempo=1.3084 s FPS=137.58 update=6.699 ms/frame render=0.561 ms/frame checksum=3641141.1607
+
+$ screensaver_parallel 8000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=8000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=8000 hilos=16 frames=180 tiempo=1.3934 s FPS=129.18 update=7.132 ms/frame render=0.593 ms/frame checksum=3641141.1607
+
+$ screensaver_parallel 8000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=8000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=8000 hilos=16 frames=180 tiempo=1.3081 s FPS=137.61 update=6.678 ms/frame render=0.580 ms/frame checksum=3641141.1607
+
+$ screensaver_parallel 8000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=8000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=8000 hilos=16 frames=180 tiempo=1.2790 s FPS=140.74 update=6.511 ms/frame render=0.585 ms/frame checksum=3641141.1607
+
+$ screensaver_parallel 8000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=8000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=8000 hilos=16 frames=180 tiempo=1.3007 s FPS=138.39 update=6.649 ms/frame render=0.569 ms/frame checksum=3641141.1607
+
+$ screensaver_parallel 16000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=16000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=16000 hilos=16 frames=180 tiempo=2.6084 s FPS=69.01 update=13.679 ms/frame render=0.801 ms/frame checksum=760944.0729
+
+$ screensaver_parallel 16000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=16000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=16000 hilos=16 frames=180 tiempo=2.4166 s FPS=74.48 update=12.644 ms/frame render=0.771 ms/frame checksum=760944.0729
+
+$ screensaver_parallel 16000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=16000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=16000 hilos=16 frames=180 tiempo=2.5781 s FPS=69.82 update=13.517 ms/frame render=0.795 ms/frame checksum=760944.0729
+
+$ screensaver_parallel 16000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=16000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=16000 hilos=16 frames=180 tiempo=2.5125 s FPS=71.64 update=13.146 ms/frame render=0.803 ms/frame checksum=760944.0729
+
+$ screensaver_parallel 16000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=16000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=16000 hilos=16 frames=180 tiempo=2.6385 s FPS=68.22 update=13.838 ms/frame render=0.810 ms/frame checksum=760944.0729
+
+$ screensaver_parallel 32000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=32000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=32000 hilos=16 frames=180 tiempo=2.2828 s FPS=78.85 update=11.793 ms/frame render=0.878 ms/frame checksum=318455.3751
+
+$ screensaver_parallel 32000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=32000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=32000 hilos=16 frames=180 tiempo=2.6454 s FPS=68.04 update=13.714 ms/frame render=0.966 ms/frame checksum=318455.3751
+
+$ screensaver_parallel 32000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=32000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=32000 hilos=16 frames=180 tiempo=2.4314 s FPS=74.03 update=12.610 ms/frame render=0.889 ms/frame checksum=318455.3751
+
+$ screensaver_parallel 32000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=32000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=32000 hilos=16 frames=180 tiempo=2.4217 s FPS=74.33 update=12.472 ms/frame render=0.968 ms/frame checksum=318455.3751
+
+$ screensaver_parallel 32000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=32000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=32000 hilos=16 frames=180 tiempo=2.3656 s FPS=76.09 update=12.229 ms/frame render=0.902 ms/frame checksum=318455.3751
+
+$ screensaver_parallel 64000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=64000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=64000 hilos=16 frames=180 tiempo=5.1138 s FPS=35.20 update=27.247 ms/frame render=1.153 ms/frame checksum=353805.0158
+
+$ screensaver_parallel 64000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=64000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=64000 hilos=16 frames=180 tiempo=5.2285 s FPS=34.43 update=27.890 ms/frame render=1.148 ms/frame checksum=353805.0158
+
+$ screensaver_parallel 64000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=64000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=64000 hilos=16 frames=180 tiempo=5.1777 s FPS=34.76 update=27.587 ms/frame render=1.166 ms/frame checksum=353805.0158
+
+$ screensaver_parallel 64000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=64000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=64000 hilos=16 frames=180 tiempo=5.2094 s FPS=34.55 update=27.780 ms/frame render=1.151 ms/frame checksum=353805.0158
+
+$ screensaver_parallel 64000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=64000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=64000 hilos=16 frames=180 tiempo=5.2455 s FPS=34.32 update=27.979 ms/frame render=1.153 ms/frame checksum=353805.0158
+
+$ screensaver_parallel 48000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=48000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=48000 hilos=16 frames=180 tiempo=3.6535 s FPS=49.27 update=19.273 ms/frame render=1.015 ms/frame checksum=334745.3152
+
+$ screensaver_parallel 48000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=48000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=48000 hilos=16 frames=180 tiempo=3.4809 s FPS=51.71 update=18.318 ms/frame render=1.011 ms/frame checksum=334745.3152
+
+$ screensaver_parallel 48000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=48000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=48000 hilos=16 frames=180 tiempo=3.6413 s FPS=49.43 update=19.218 ms/frame render=1.002 ms/frame checksum=334745.3152
+
+$ screensaver_parallel 48000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=48000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=48000 hilos=16 frames=180 tiempo=3.5121 s FPS=51.25 update=18.494 ms/frame render=1.008 ms/frame checksum=334745.3152
+
+$ screensaver_parallel 48000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=48000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=48000 hilos=16 frames=180 tiempo=3.6022 s FPS=49.97 update=18.980 ms/frame render=1.021 ms/frame checksum=334745.3152
+
+$ screensaver_parallel 40000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40000 hilos=16 frames=180 tiempo=2.8387 s FPS=63.41 update=14.767 ms/frame render=0.994 ms/frame checksum=319040.0958
+
+$ screensaver_parallel 40000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40000 hilos=16 frames=180 tiempo=2.9334 s FPS=61.36 update=15.330 ms/frame render=0.957 ms/frame checksum=319040.0958
+
+$ screensaver_parallel 40000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40000 hilos=16 frames=180 tiempo=2.8312 s FPS=63.58 update=14.715 ms/frame render=0.993 ms/frame checksum=319040.0958
+
+$ screensaver_parallel 40000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40000 hilos=16 frames=180 tiempo=2.9985 s FPS=60.03 update=15.677 ms/frame render=0.971 ms/frame checksum=319040.0958
+
+$ screensaver_parallel 40000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40000 hilos=16 frames=180 tiempo=2.8660 s FPS=62.81 update=14.926 ms/frame render=0.985 ms/frame checksum=319040.0958
+
+$ screensaver_parallel 44000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=44000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=44000 hilos=16 frames=180 tiempo=3.3427 s FPS=53.85 update=17.539 ms/frame render=1.021 ms/frame checksum=313738.6963
+
+$ screensaver_parallel 44000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=44000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=44000 hilos=16 frames=180 tiempo=3.1724 s FPS=56.74 update=16.589 ms/frame render=1.026 ms/frame checksum=313738.6963
+
+$ screensaver_parallel 44000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=44000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=44000 hilos=16 frames=180 tiempo=3.3142 s FPS=54.31 update=17.412 ms/frame render=0.991 ms/frame checksum=313738.6963
+
+$ screensaver_parallel 44000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=44000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=44000 hilos=16 frames=180 tiempo=3.1997 s FPS=56.26 update=16.735 ms/frame render=1.031 ms/frame checksum=313738.6963
+
+$ screensaver_parallel 44000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=44000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=44000 hilos=16 frames=180 tiempo=3.3680 s FPS=53.44 update=17.688 ms/frame render=1.013 ms/frame checksum=313738.6963
+
+$ screensaver_parallel 42000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=42000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=42000 hilos=16 frames=180 tiempo=3.0852 s FPS=58.34 update=16.121 ms/frame render=1.009 ms/frame checksum=322038.1875
+
+$ screensaver_parallel 42000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=42000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=42000 hilos=16 frames=180 tiempo=3.2449 s FPS=55.47 update=16.993 ms/frame render=1.024 ms/frame checksum=322038.1875
+
+$ screensaver_parallel 42000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=42000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=42000 hilos=16 frames=180 tiempo=3.0614 s FPS=58.80 update=15.984 ms/frame render=1.015 ms/frame checksum=322038.1875
+
+$ screensaver_parallel 42000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=42000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=42000 hilos=16 frames=180 tiempo=3.2118 s FPS=56.04 update=16.824 ms/frame render=1.010 ms/frame checksum=322038.1875
+
+$ screensaver_parallel 42000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=42000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=42000 hilos=16 frames=180 tiempo=3.0901 s FPS=58.25 update=16.094 ms/frame render=1.054 ms/frame checksum=322038.1875
+
+$ screensaver_parallel 41000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=41000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=41000 hilos=16 frames=180 tiempo=3.0774 s FPS=58.49 update=16.116 ms/frame render=0.969 ms/frame checksum=336338.4892
+
+$ screensaver_parallel 41000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=41000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=41000 hilos=16 frames=180 tiempo=2.9821 s FPS=60.36 update=15.564 ms/frame render=0.987 ms/frame checksum=336338.4892
+
+$ screensaver_parallel 41000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=41000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=41000 hilos=16 frames=180 tiempo=3.0716 s FPS=58.60 update=16.054 ms/frame render=0.995 ms/frame checksum=336338.4892
+
+$ screensaver_parallel 41000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=41000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=41000 hilos=16 frames=180 tiempo=2.9134 s FPS=61.78 update=15.195 ms/frame render=0.981 ms/frame checksum=336338.4892
+
+$ screensaver_parallel 41000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=41000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=41000 hilos=16 frames=180 tiempo=3.1160 s FPS=57.77 update=16.295 ms/frame render=1.002 ms/frame checksum=336338.4892
+
+$ screensaver_parallel 40500 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40500, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40500 hilos=16 frames=180 tiempo=2.9466 s FPS=61.09 update=15.388 ms/frame render=0.974 ms/frame checksum=336769.4952
+
+$ screensaver_parallel 40500 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40500, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40500 hilos=16 frames=180 tiempo=3.0061 s FPS=59.88 update=15.680 ms/frame render=1.009 ms/frame checksum=336769.4952
+
+$ screensaver_parallel 40500 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40500, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40500 hilos=16 frames=180 tiempo=2.9226 s FPS=61.59 update=15.240 ms/frame render=0.986 ms/frame checksum=336769.4952
+
+$ screensaver_parallel 40500 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40500, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40500 hilos=16 frames=180 tiempo=3.0729 s FPS=58.58 update=16.083 ms/frame render=0.978 ms/frame checksum=336769.4952
+
+$ screensaver_parallel 40500 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40500, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40500 hilos=16 frames=180 tiempo=2.9171 s FPS=61.71 update=15.208 ms/frame render=0.990 ms/frame checksum=336769.4952
+
+$ screensaver_parallel 40750 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40750, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40750 hilos=16 frames=180 tiempo=3.1233 s FPS=57.63 update=16.372 ms/frame render=0.969 ms/frame checksum=335981.2591
+
+$ screensaver_parallel 40750 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40750, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40750 hilos=16 frames=180 tiempo=2.9254 s FPS=61.53 update=15.249 ms/frame render=0.994 ms/frame checksum=335981.2591
+
+$ screensaver_parallel 40750 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40750, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40750 hilos=16 frames=180 tiempo=3.0756 s FPS=58.53 update=16.092 ms/frame render=0.985 ms/frame checksum=335981.2591
+
+$ screensaver_parallel 40750 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40750, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40750 hilos=16 frames=180 tiempo=2.9036 s FPS=61.99 update=15.098 ms/frame render=1.024 ms/frame checksum=335981.2591
+
+$ screensaver_parallel 40750 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v1: N=40750, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v1] N=40750 hilos=16 frames=180 tiempo=3.0595 s FPS=58.83 update=16.018 ms/frame render=0.966 ms/frame checksum=335981.2591
+
+$ screensaver_parallel_v2 1000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=1000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=1000 hilos=16 frames=180 tiempo=0.1045 s FPS=1723.08 update=0.182 ms/frame render=0.385 ms/frame checksum=1004099.7795
+
+$ screensaver_parallel_v2 1000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=1000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=1000 hilos=16 frames=180 tiempo=0.1007 s FPS=1786.95 update=0.176 ms/frame render=0.376 ms/frame checksum=1004099.7795
+
+$ screensaver_parallel_v2 1000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=1000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=1000 hilos=16 frames=180 tiempo=0.0980 s FPS=1837.36 update=0.171 ms/frame render=0.365 ms/frame checksum=1004099.7795
+
+$ screensaver_parallel_v2 1000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=1000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=1000 hilos=16 frames=180 tiempo=0.1002 s FPS=1796.14 update=0.165 ms/frame render=0.384 ms/frame checksum=1004099.7795
+
+$ screensaver_parallel_v2 1000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=1000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=1000 hilos=16 frames=180 tiempo=0.1035 s FPS=1739.53 update=0.192 ms/frame render=0.374 ms/frame checksum=1004099.7795
+
+$ screensaver_parallel_v2 2000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=2000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=2000 hilos=16 frames=180 tiempo=0.1417 s FPS=1270.67 update=0.453 ms/frame render=0.326 ms/frame checksum=1489827.0527
+
+$ screensaver_parallel_v2 2000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=2000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=2000 hilos=16 frames=180 tiempo=0.1558 s FPS=1155.26 update=0.500 ms/frame render=0.358 ms/frame checksum=1489827.0527
+
+$ screensaver_parallel_v2 2000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=2000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=2000 hilos=16 frames=180 tiempo=0.1608 s FPS=1119.18 update=0.534 ms/frame render=0.351 ms/frame checksum=1489827.0527
+
+$ screensaver_parallel_v2 2000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=2000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=2000 hilos=16 frames=180 tiempo=0.1386 s FPS=1298.60 update=0.447 ms/frame render=0.315 ms/frame checksum=1489827.0527
+
+$ screensaver_parallel_v2 2000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=2000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=2000 hilos=16 frames=180 tiempo=0.1510 s FPS=1192.02 update=0.463 ms/frame render=0.368 ms/frame checksum=1489827.0527
+
+$ screensaver_parallel_v2 4000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=4000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=4000 hilos=16 frames=180 tiempo=0.3071 s FPS=586.15 update=1.274 ms/frame render=0.422 ms/frame checksum=2845697.5024
+
+$ screensaver_parallel_v2 4000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=4000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=4000 hilos=16 frames=180 tiempo=0.2979 s FPS=604.20 update=1.246 ms/frame render=0.401 ms/frame checksum=2845697.5024
+
+$ screensaver_parallel_v2 4000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=4000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=4000 hilos=16 frames=180 tiempo=0.2982 s FPS=603.71 update=1.245 ms/frame render=0.402 ms/frame checksum=2845697.5024
+
+$ screensaver_parallel_v2 4000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=4000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=4000 hilos=16 frames=180 tiempo=0.2893 s FPS=622.18 update=1.208 ms/frame render=0.390 ms/frame checksum=2845697.5024
+
+$ screensaver_parallel_v2 4000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=4000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=4000 hilos=16 frames=180 tiempo=0.2995 s FPS=600.93 update=1.250 ms/frame render=0.405 ms/frame checksum=2845697.5024
+
+$ screensaver_parallel_v2 8000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=8000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=8000 hilos=16 frames=180 tiempo=1.1547 s FPS=155.89 update=5.839 ms/frame render=0.565 ms/frame checksum=3641141.1607
+
+$ screensaver_parallel_v2 8000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=8000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=8000 hilos=16 frames=180 tiempo=1.1815 s FPS=152.35 update=6.007 ms/frame render=0.548 ms/frame checksum=3641141.1607
+
+$ screensaver_parallel_v2 8000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=8000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=8000 hilos=16 frames=180 tiempo=1.1845 s FPS=151.96 update=6.006 ms/frame render=0.562 ms/frame checksum=3641141.1607
+
+$ screensaver_parallel_v2 8000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=8000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=8000 hilos=16 frames=180 tiempo=1.1344 s FPS=158.67 update=5.769 ms/frame render=0.524 ms/frame checksum=3641141.1607
+
+$ screensaver_parallel_v2 8000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=8000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=8000 hilos=16 frames=180 tiempo=1.1561 s FPS=155.70 update=5.874 ms/frame render=0.537 ms/frame checksum=3641141.1607
+
+$ screensaver_parallel_v2 16000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=16000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=16000 hilos=16 frames=180 tiempo=2.2653 s FPS=79.46 update=11.958 ms/frame render=0.611 ms/frame checksum=760944.0729
+
+$ screensaver_parallel_v2 16000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=16000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=16000 hilos=16 frames=180 tiempo=2.2308 s FPS=80.69 update=11.772 ms/frame render=0.601 ms/frame checksum=760944.0729
+
+$ screensaver_parallel_v2 16000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=16000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=16000 hilos=16 frames=180 tiempo=2.3135 s FPS=77.80 update=12.218 ms/frame render=0.619 ms/frame checksum=760944.0729
+
+$ screensaver_parallel_v2 16000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=16000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=16000 hilos=16 frames=180 tiempo=2.2286 s FPS=80.77 update=11.774 ms/frame render=0.596 ms/frame checksum=760944.0729
+
+$ screensaver_parallel_v2 16000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=16000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=16000 hilos=16 frames=180 tiempo=2.2304 s FPS=80.70 update=11.771 ms/frame render=0.608 ms/frame checksum=760944.0729
+
+$ screensaver_parallel_v2 32000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=32000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=32000 hilos=16 frames=180 tiempo=2.1519 s FPS=83.65 update=11.342 ms/frame render=0.603 ms/frame checksum=318455.3751
+
+$ screensaver_parallel_v2 32000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=32000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=32000 hilos=16 frames=180 tiempo=2.0917 s FPS=86.05 update=11.053 ms/frame render=0.557 ms/frame checksum=318455.3751
+
+$ screensaver_parallel_v2 32000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=32000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=32000 hilos=16 frames=180 tiempo=2.1038 s FPS=85.56 update=11.109 ms/frame render=0.563 ms/frame checksum=318455.3751
+
+$ screensaver_parallel_v2 32000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=32000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=32000 hilos=16 frames=180 tiempo=2.1498 s FPS=83.73 update=11.356 ms/frame render=0.578 ms/frame checksum=318455.3751
+
+$ screensaver_parallel_v2 32000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=32000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=32000 hilos=16 frames=180 tiempo=2.1055 s FPS=85.49 update=11.109 ms/frame render=0.579 ms/frame checksum=318455.3751
+
+$ screensaver_parallel_v2 64000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=64000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=64000 hilos=16 frames=180 tiempo=4.7770 s FPS=37.68 update=25.759 ms/frame render=0.769 ms/frame checksum=353805.0158
+
+$ screensaver_parallel_v2 64000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=64000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=64000 hilos=16 frames=180 tiempo=4.8395 s FPS=37.19 update=26.103 ms/frame render=0.773 ms/frame checksum=353805.0158
+
+$ screensaver_parallel_v2 64000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=64000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=64000 hilos=16 frames=180 tiempo=4.8523 s FPS=37.10 update=26.188 ms/frame render=0.759 ms/frame checksum=353805.0158
+
+$ screensaver_parallel_v2 64000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=64000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=64000 hilos=16 frames=180 tiempo=4.8664 s FPS=36.99 update=26.270 ms/frame render=0.755 ms/frame checksum=353805.0158
+
+$ screensaver_parallel_v2 64000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=64000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=64000 hilos=16 frames=180 tiempo=4.8884 s FPS=36.82 update=26.374 ms/frame render=0.768 ms/frame checksum=353805.0158
+
+$ screensaver_parallel_v2 48000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=48000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=48000 hilos=16 frames=180 tiempo=3.3118 s FPS=54.35 update=17.703 ms/frame render=0.685 ms/frame checksum=334745.3152
+
+$ screensaver_parallel_v2 48000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=48000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=48000 hilos=16 frames=180 tiempo=3.2483 s FPS=55.41 update=17.391 ms/frame render=0.645 ms/frame checksum=334745.3152
+
+$ screensaver_parallel_v2 48000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=48000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=48000 hilos=16 frames=180 tiempo=3.3480 s FPS=53.76 update=17.913 ms/frame render=0.674 ms/frame checksum=334745.3152
+
+$ screensaver_parallel_v2 48000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=48000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=48000 hilos=16 frames=180 tiempo=3.2008 s FPS=56.24 update=17.123 ms/frame render=0.650 ms/frame checksum=334745.3152
+
+$ screensaver_parallel_v2 48000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=48000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=48000 hilos=16 frames=180 tiempo=3.3634 s FPS=53.52 update=17.970 ms/frame render=0.704 ms/frame checksum=334745.3152
+
+$ screensaver_parallel_v2 40000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=40000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=40000 hilos=16 frames=180 tiempo=2.5829 s FPS=69.69 update=13.720 ms/frame render=0.615 ms/frame checksum=319040.0958
+
+$ screensaver_parallel_v2 40000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=40000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=40000 hilos=16 frames=180 tiempo=2.6265 s FPS=68.53 update=13.947 ms/frame render=0.634 ms/frame checksum=319040.0958
+
+$ screensaver_parallel_v2 40000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=40000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=40000 hilos=16 frames=180 tiempo=2.5842 s FPS=69.65 update=13.731 ms/frame render=0.614 ms/frame checksum=319040.0958
+
+$ screensaver_parallel_v2 40000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=40000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=40000 hilos=16 frames=180 tiempo=2.6364 s FPS=68.27 update=14.019 ms/frame render=0.614 ms/frame checksum=319040.0958
+
+$ screensaver_parallel_v2 40000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=40000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=40000 hilos=16 frames=180 tiempo=2.5833 s FPS=69.68 update=13.736 ms/frame render=0.603 ms/frame checksum=319040.0958
+
+$ screensaver_parallel_v2 44000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44000 hilos=16 frames=180 tiempo=2.9511 s FPS=60.99 update=15.741 ms/frame render=0.643 ms/frame checksum=313738.6963
+
+$ screensaver_parallel_v2 44000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44000 hilos=16 frames=180 tiempo=2.9071 s FPS=61.92 update=15.514 ms/frame render=0.626 ms/frame checksum=313738.6963
+
+$ screensaver_parallel_v2 44000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44000 hilos=16 frames=180 tiempo=2.9665 s FPS=60.68 update=15.797 ms/frame render=0.668 ms/frame checksum=313738.6963
+
+$ screensaver_parallel_v2 44000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44000 hilos=16 frames=180 tiempo=2.8833 s FPS=62.43 update=15.379 ms/frame render=0.628 ms/frame checksum=313738.6963
+
+$ screensaver_parallel_v2 44000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44000 hilos=16 frames=180 tiempo=2.9473 s FPS=61.07 update=15.721 ms/frame render=0.642 ms/frame checksum=313738.6963
+
+$ screensaver_parallel_v2 46000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=46000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=46000 hilos=16 frames=180 tiempo=3.0250 s FPS=59.50 update=16.166 ms/frame render=0.629 ms/frame checksum=305286.2938
+
+$ screensaver_parallel_v2 46000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=46000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=46000 hilos=16 frames=180 tiempo=3.1502 s FPS=57.14 update=16.788 ms/frame render=0.703 ms/frame checksum=305286.2938
+
+$ screensaver_parallel_v2 46000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=46000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=46000 hilos=16 frames=180 tiempo=3.0459 s FPS=59.10 update=16.259 ms/frame render=0.652 ms/frame checksum=305286.2938
+
+$ screensaver_parallel_v2 46000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=46000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=46000 hilos=16 frames=180 tiempo=3.1594 s FPS=56.97 update=16.835 ms/frame render=0.706 ms/frame checksum=305286.2938
+
+$ screensaver_parallel_v2 46000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=46000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=46000 hilos=16 frames=180 tiempo=3.1654 s FPS=56.87 update=16.940 ms/frame render=0.633 ms/frame checksum=305286.2938
+
+$ screensaver_parallel_v2 45000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=45000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=45000 hilos=16 frames=180 tiempo=2.9976 s FPS=60.05 update=16.017 ms/frame render=0.626 ms/frame checksum=304047.9079
+
+$ screensaver_parallel_v2 45000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=45000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=45000 hilos=16 frames=180 tiempo=2.9882 s FPS=60.24 update=15.931 ms/frame render=0.660 ms/frame checksum=304047.9079
+
+$ screensaver_parallel_v2 45000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=45000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=45000 hilos=16 frames=180 tiempo=3.0633 s FPS=58.76 update=16.355 ms/frame render=0.654 ms/frame checksum=304047.9079
+
+$ screensaver_parallel_v2 45000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=45000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=45000 hilos=16 frames=180 tiempo=2.9826 s FPS=60.35 update=15.933 ms/frame render=0.627 ms/frame checksum=304047.9079
+
+$ screensaver_parallel_v2 45000 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=45000, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=45000 hilos=16 frames=180 tiempo=3.0594 s FPS=58.84 update=16.316 ms/frame render=0.666 ms/frame checksum=304047.9079
+
+$ screensaver_parallel_v2 44500 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44500, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44500 hilos=16 frames=180 tiempo=2.9748 s FPS=60.51 update=15.863 ms/frame render=0.652 ms/frame checksum=324369.3986
+
+$ screensaver_parallel_v2 44500 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44500, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44500 hilos=16 frames=180 tiempo=3.0434 s FPS=59.15 update=16.242 ms/frame render=0.656 ms/frame checksum=324369.3986
+
+$ screensaver_parallel_v2 44500 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44500, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44500 hilos=16 frames=180 tiempo=2.9444 s FPS=61.13 update=15.722 ms/frame render=0.624 ms/frame checksum=324369.3986
+
+$ screensaver_parallel_v2 44500 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44500, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44500 hilos=16 frames=180 tiempo=3.0065 s FPS=59.87 update=16.046 ms/frame render=0.647 ms/frame checksum=324369.3986
+
+$ screensaver_parallel_v2 44500 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44500, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44500 hilos=16 frames=180 tiempo=2.9598 s FPS=60.81 update=15.807 ms/frame render=0.627 ms/frame checksum=324369.3986
+
+$ screensaver_parallel_v2 44750 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44750, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44750 hilos=16 frames=180 tiempo=3.0008 s FPS=59.98 update=16.011 ms/frame render=0.650 ms/frame checksum=318978.3741
+
+$ screensaver_parallel_v2 44750 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44750, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44750 hilos=16 frames=180 tiempo=2.9792 s FPS=60.42 update=15.886 ms/frame render=0.646 ms/frame checksum=318978.3741
+
+$ screensaver_parallel_v2 44750 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44750, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44750 hilos=16 frames=180 tiempo=3.0724 s FPS=58.59 update=16.390 ms/frame render=0.668 ms/frame checksum=318978.3741
+
+$ screensaver_parallel_v2 44750 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44750, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44750 hilos=16 frames=180 tiempo=2.9589 s FPS=60.83 update=15.787 ms/frame render=0.641 ms/frame checksum=318978.3741
+
+$ screensaver_parallel_v2 44750 16 --seed 2026 --frames 180 --csv /home/sestradat/Escritorio/u/semestre/raro 1 /Paralela/CC3069-Computacion-Paralela/Proyecto1-Screensaver/results/max_n_corridas.csv
+Galaxia Paralela v2: N=44750, canvas 800x600, semilla=2026, modo benchmark
+Hilos OpenMP: 16
+[Paralela v2] N=44750 hilos=16 frames=180 tiempo=3.0632 s FPS=58.76 update=16.335 ms/frame render=0.672 ms/frame checksum=318978.3741
+

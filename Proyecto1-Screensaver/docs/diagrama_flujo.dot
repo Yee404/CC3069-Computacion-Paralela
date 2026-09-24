@@ -1,0 +1,71 @@
+// Anexo 1 - Diagrama de flujo del screensaver "Galaxia" (version paralela v2).
+// Generar:  dot -Tpng -Gdpi=150 docs/diagrama_flujo.dot -o docs/diagrama_flujo.png
+digraph Galaxia {
+    graph [rankdir=TB, fontname="Helvetica", fontsize=11, nodesep=0.35, ranksep=0.32, bgcolor="white"];
+    node  [fontname="Helvetica", fontsize=10, shape=box, style="rounded,filled", fillcolor="#f4f4f2", color="#8a8985"];
+    edge  [fontname="Helvetica", fontsize=9, color="#52514e"];
+
+    inicio   [label="Inicio", shape=ellipse, fillcolor="#e1ecfa"];
+    args     [label="Captura de argumentos\nargc / argv", shape=parallelogram];
+    hayArgs  [label="¿argc > 1?", shape=diamond, fillcolor="#fff5dc"];
+    pedir    [label="Solicitud de datos por consola\nN y hilos (hasta 3 intentos)", shape=parallelogram];
+    parse    [label="parseArguments()\nstrtol/strtof, rangos, opciones conocidas,\nmin <= max, argumentos de sobra"];
+    valido   [label="¿Entrada válida?", shape=diamond, fillcolor="#fff5dc"];
+    error    [label="Mensaje de error + uso\n(programación defensiva)", shape=parallelogram, fillcolor="#fbe3e2"];
+    salErr   [label="Fin (EXIT_FAILURE)", shape=ellipse, fillcolor="#fbe3e2"];
+    semilla  [label="seedRandom()\nomp_set_num_threads(hilos)"];
+    sdl      [label="initSdl()\nventana, renderer, textura"];
+    sdlOk    [label="¿SDL OK?", shape=diamond, fillcolor="#fff5dc"];
+    init     [label="initializeGalaxy()\nN partículas en disco giratorio,\nbuffers y framebuffer"];
+
+    eventos  [label="handleEvents()\n¿ESC / cerrar?", shape=diamond, fillcolor="#fff5dc"];
+
+    subgraph cluster_update {
+        label="updateGalaxyParallelV2 - #pragma omp parallel (una región por frame)";
+        style="rounded,dashed"; color="#2a78d6"; fontcolor="#2a78d6";
+        s1   [label="omp single: buildAttractors()\ncopia inmutable de estrellas", fillcolor="#e1ecfa"];
+        b1   [label="barrera implícita", shape=plain, fontcolor="#2a78d6"];
+        f1   [label="omp for static: updateParticle(i)\ngravedad, movimiento, rebotes, edad", fillcolor="#e1ecfa"];
+        b2   [label="barrera implícita", shape=plain, fontcolor="#2a78d6"];
+        f2   [label="omp for dynamic,64: predatorOf[j] = findPredator(j)\nO(N²), solo lectura", fillcolor="#e1ecfa"];
+        b3   [label="barrera implícita", shape=plain, fontcolor="#2a78d6"];
+        s2   [label="omp single (exclusión mutua):\nresolveAbsorption() + processSupernovas()\n(usa rand(), no thread-safe)", fillcolor="#e1ecfa"];
+        b4   [label="barrera implícita + join", shape=plain, fontcolor="#2a78d6"];
+        s1 -> b1 -> f1 -> b2 -> f2 -> b3 -> s2 -> b4;
+    }
+
+    subgraph cluster_render {
+        label="renderGalaxyParallelV2 - #pragma omp parallel for dynamic";
+        style="rounded,dashed"; color="#eb6834"; fontcolor="#eb6834";
+        r1  [label="rasterizeRows(franja)\n4 franjas por hilo; cada franja la pinta un solo hilo", fillcolor="#fde9df"];
+        b5  [label="barrera implícita + join", shape=plain, fontcolor="#eb6834"];
+        r1 -> b5;
+    }
+
+    present  [label="presentFramebuffer()\nhilo principal (SDL no es thread-safe)"];
+    fps      [label="Despliegue de FPS\ntítulo de ventana + consola", shape=parallelogram];
+    bench    [label="¿Modo benchmark y\nframes completos?", shape=diamond, fillcolor="#fff5dc"];
+    reporte  [label="Despliegue de resultados\ntiempo, FPS, ms/fase, checksum,\nfila CSV", shape=parallelogram];
+    destroy  [label="destroySdl()\ntextura, renderer, ventana, SDL_Quit"];
+    fin      [label="Fin (EXIT_SUCCESS)", shape=ellipse, fillcolor="#e1ecfa"];
+
+    inicio -> args -> hayArgs;
+    hayArgs -> parse [label="sí"];
+    hayArgs -> pedir [label="no"];
+    pedir -> valido;
+    parse -> valido;
+    valido -> error [label="no"];
+    error -> salErr;
+    valido -> semilla [label="sí"];
+    semilla -> sdl -> sdlOk;
+    sdlOk -> error [label="no"];
+    sdlOk -> init [label="sí"];
+    init -> eventos;
+    eventos -> s1 [label="continuar"];
+    b4 -> r1;
+    b5 -> present -> fps -> bench;
+    bench -> eventos [label="no"];
+    bench -> reporte [label="sí"];
+    eventos -> destroy [label="salir"];
+    reporte -> destroy -> fin;
+}
